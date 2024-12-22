@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>790</width>
+    <height>468</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>五子棋</string>
+  </property>
+  <widget class="QPushButton" name="start_button">
+   <property name="geometry">
+    <rect>
+     <x>680</x>
+     <y>410</y>
+     <width>91</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>游戏开始</string>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="graphicview">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>650</width>
+     <height>650</height>
+    </rect>
+   </property>
+   <property name="backgroundBrush">
+    <brush brushstyle="SolidPattern">
+     <color alpha="255">
+      <red>200</red>
+      <green>138</green>
+      <blue>97</blue>
+     </color>
+    </brush>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="save_Button">
+   <property name="geometry">
+    <rect>
+     <x>680</x>
+     <y>320</y>
+     <width>91</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>存档</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="load_button">
+   <property name="geometry">
+    <rect>
+     <x>680</x>
+     <y>230</y>
+     <width>91</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>读档</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="close_button">
+   <property name="geometry">
+    <rect>
+     <x>850</x>
+     <y>410</y>
+     <width>91</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>退出</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="restart_button">
+   <property name="geometry">
+    <rect>
+     <x>680</x>
+     <y>50</y>
+     <width>91</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>重新开始</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="withdraw_button">
+   <property name="geometry">
+    <rect>
+     <x>680</x>
+     <y>140</y>
+     <width>91</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>悔棋</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
